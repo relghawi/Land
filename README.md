@@ -1,9 +1,4 @@
 # CLIMA-Land
-This also needed it:
-```
-] add https://github.com/Yujie-W/TextIO.jl#wyujie
-```
-Actually no, it's better to remove this.
 
 ## About
 
@@ -43,7 +38,11 @@ The entire model will be written in [Julia](https://docs.julialang.org/en/v1/) (
 
 ## Examples
 
-### Run CliMA Land for a single site (v0.1)
+### Run CliMA Land for a single site (v0.1) [updated to 0.2]
+
+```julia
+] add https://github.com/lazarusA/Land.git#single_site
+```
 
 1. Download all the files in folder examples into a folder,
 ```shell

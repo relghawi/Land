@@ -1,7 +1,7 @@
 name = "Land"
 uuid = "27e3c115-2cb8-4114-b7a5-cd9f011f9dcc"
 authors = ["Charles Kawczynski <kawczynski.charles@gmail.com>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
