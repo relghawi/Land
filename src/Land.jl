@@ -1,5 +1,6 @@
 module Land
 
+include("read_csv.jl")
 
 # include sub modules
 include("CanopyLayers/CanopyLayers.jl"                  )
