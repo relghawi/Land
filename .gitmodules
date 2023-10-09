@@ -1,0 +1,6 @@
+[submodule "src/StomataModels/model/DataUtils"]
+	path = src/StomataModels/model/DataUtils
+	url = https://github.com/relghawi/CLiMA-Hybrid
+[submodule "src/StomataModels/model/HybridModels"]
+	path = src/StomataModels/model/HybridModels
+	url = https://github.com/relghawi/CLiMA-Hybrid
