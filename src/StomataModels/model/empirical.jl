@@ -168,10 +168,10 @@ end
 
 
 
-include("/Net/Groups/BGI/people/relghawi/Julia_hyb/Clima-Hyb2/DataUtils/prep_data.jl")
-include("/Net/Groups/BGI/people/relghawi/Julia_hyb/Clima-Hyb2/DataUtils/data.jl")
-include("/Net/Groups/BGI/people/relghawi/Julia_hyb/Clima-Hyb2/HybridModels/model_64.jl")
-include("/Net/Groups/BGI/people/relghawi/Julia_hyb/Clima-Hyb2/DataUtils/losses.jl")
+include("DataUtils/prep_data.jl")
+include("DataUtils/data.jl")
+include("HybridModels/model_64.jl")
+include("DataUtils/losses.jl")
 
 
 using Flux, JLD2
