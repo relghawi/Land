@@ -133,7 +133,12 @@ Base.@kwdef mutable struct ESMMedlyn{FT} <: EmpiricalStomatalModel{FT}
     g1::FT = FT(125.0)
 end
 
-
+Base.@kwdef mutable struct ESMMedlynHybrid{FT} <: EmpiricalStomatalModel{FT}
+    "minimal stomatal conductance g0 `[mol m⁻² s⁻¹]`"
+    g0::FT = FT(0.005)
+    "slope of conductance-photosynthesis correlation `[Pa⁽⁵⁾]`"
+    g1::FT = FT(125.0)
+end
 
 
 """

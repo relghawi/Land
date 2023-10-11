@@ -15,6 +15,7 @@ using ..PlantHydraulics: AbstractSoilVC, LeafHydraulics, TreeSimple, critical_fl
 export BetaGLinearKleaf, BetaGLinearKsoil, BetaGLinearPleaf, BetaGLinearPsoil, BetaGLinearSWC, BetaVLinearKleaf, BetaVLinearKsoil, BetaVLinearPleaf, BetaVLinearPsoil, BetaVLinearSWC, CanopyLayer,
        EmpiricalStomatalModel, ESMBallBerry, ESMGentine, ESMLeuning, ESMMedlyn, GlcDrive, GswDrive, OptimizationStomatalModel, OSMEller, OSMSperry, OSMWang, OSMWAP, OSMWAPMod
 
+export ESMMedlynHybrid
 # export public functions
 export gsw_control!, gas_exchange!, prognostic_gsw!, solution_diff!, stomatal_conductance, update_leaf_AK!, update_leaf_TP!
 
